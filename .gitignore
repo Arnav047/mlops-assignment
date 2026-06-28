@@ -1,0 +1,14 @@
+# Ignore the Python virtual environment
+.venv/
+venv/
+
+# Ignore local Python cache files
+__pycache__/
+*.pyc
+
+# Ignore temporary notebook files
+.ipynb_checkpoints/
+
+# Ignore the large PyTorch weights files everywhere
+*.pt
+*.pth

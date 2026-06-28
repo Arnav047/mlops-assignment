@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/as8u25/OneDrive - University of Southampton/JOB
+  WORK/mlruns/482934544372177583
+creation_time: 1782417744974
+effective_trace_archival_retention: null
+experiment_id: '482934544372177583'
+last_update_time: 1782417744974
+lifecycle_stage: active
+name: Pedestrian_Detection_Pipeline
+trace_location: null
+workspace: default

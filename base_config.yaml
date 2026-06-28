@@ -1,0 +1,6 @@
+# base_config.yaml
+seed: 42
+root_dir: "./data/PennFudanPed"
+batch_size: 4
+epochs: 10
+lr: 0.0005

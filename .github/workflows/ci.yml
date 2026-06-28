@@ -1,0 +1,15 @@
+name: Docker Build CI
+
+on:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository code
+      uses: actions/checkout@v3
+
+    - name: Verify Dockerfile Builds Successfully
+      run: docker build -t mlops-assignment .
