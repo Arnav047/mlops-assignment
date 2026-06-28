@@ -13,7 +13,7 @@ python -m venv .venv
 # Install identical package versions
 pip install -r requirements.txt
 
-
+2. Run Experiments Locally
 Step A: Download the Dataset
 python download_data.py
 
