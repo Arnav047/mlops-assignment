@@ -12,34 +12,44 @@ python -m venv .venv
 .venv\Scripts\activate 
 ```
 Install identical package versions
+```
 pip install -r requirements.txt
-
+```
 2. Run Experiments Locally
 Step A: Download the Dataset
+```
 python download_data.py
-
+```
 
 Step B: Run Baseline Training (Experiment 1)
+```
 python main.py
+```
 
 Step C: Run Alternative Training (Experiment 2)
 Change a setting inside base_config.yaml (like modifying the learning rate lr), save the file, and run the pipeline again:
+```
 python main.py
-
+```
 
 3. View the MLflow Dashboard
 To launch the visual dashboard and compare the training runs side-by-side, run:
+```
 mlflow ui --backend-store-uri sqlite:///mlflow.db
+```
 
-4. Run via Docker
+5. Run via Docker
 To build and run the entire pipeline inside an isolated container, use these two commands:
 
 Build the Image:
+```
 docker build -t mlops-assignment .
+```
 
 Run the Pipeline:
+```
 docker run mlops-assignment
-
+```
 5. Automated CI/CD Workflow (GitHub Actions)
 This project includes a continuous integration safety net configured in .github/workflows/ci.yml.
 
