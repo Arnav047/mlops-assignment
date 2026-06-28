@@ -12,9 +12,11 @@ python -m venv .venv
 .venv\Scripts\activate 
 ```
 Install identical package versions
+
 ```
 pip install -r requirements.txt
 ```
+
 2. Run Experiments Locally
 Step A: Download the Dataset
 ```
