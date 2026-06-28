@@ -54,11 +54,7 @@ docker run mlops-assignment
 ```
 5. Automated CI/CD Workflow (GitHub Actions)
 This project includes a continuous integration safety net configured in .github/workflows/ci.yml.
-
 Every time we run git push to upload code to the main branch on GitHub, an automated cloud runner instantly triggers to:
-
-Provision a fresh, isolated Ubuntu Linux environment.
-
-Clone the repository files.
-
-Build the Dockerfile from scratch to verify absolute code reproducibility and catch environment-breaking bugs automatically.
+* Provision a fresh, isolated Ubuntu Linux environment.
+* Clone the repository files.
+* Build the Dockerfile from scratch to verify absolute code reproducibility and catch environment-breaking bugs automatically.
