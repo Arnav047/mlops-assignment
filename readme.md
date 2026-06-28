@@ -40,7 +40,7 @@ To launch the visual dashboard and compare the training runs side-by-side, run:
 mlflow ui --backend-store-uri sqlite:///mlflow.db
 ```
 
-5. Run via Docker
+4. Run via Docker
 To build and run the entire pipeline inside an isolated container, use these two commands:
 
 Build the Image:
